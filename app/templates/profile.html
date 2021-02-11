@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block main %}
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/app.css')}}">
+
+
+<div class="prohead">
+	<header>
+		<img src="{{url_for('static', filename='ProfilePhoto.jpg')}}" alt="ProfilePhoto" class="photo" />
+		<h1>Deidre-Ann Jemison</h1>
+		<p>@jemScapades</p>
+		<p>Kingston,jamaica</p>
+		<p>Joined:</p>
+	</header>
+</div>
+
+<div class="probody">
+	<p>I'm Young , vibrant and a bit introverted. I'm a self-certified Foodie, bootleg Hair and Makeup artist and an Anime enthusiast!! Lol :D </p>
+	<ul>
+  		<li><a href=0>Posts</a></li>
+  		<li><a href=0>Following</a></li>
+  		<li><a href=0>Followers</a></li>
+  	</ul>
+  	
+  	<div class="follow">
+        <button class="btn">Follow</button>
+    </div>	
+</div>
+{% endblock %}
+
+
