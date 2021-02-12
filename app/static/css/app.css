@@ -1,3 +1,71 @@
 body {
     padding-top: 5rem;
 }
+
+
+.profile{
+	border: 4px solid #e6ccff;
+	border-radius: 25px;
+	margin: 0 auto;
+}
+
+.prohead{
+	padding: 3px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	background-image:linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+
+}
+
+.photo{
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%
+}
+
+.prohead h1{
+	color: #F8F8F8;
+	font-size: 60px;
+	text-align: center;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.prohead h2{
+	color: #F8F8F8;
+	font-size: 20px;
+	text-align: center;
+}
+
+.probody p{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.follow{
+	display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 14px 28px;
+	cursor: pointer;
+}
+
+.follow .btn{
+	color:#FFFFFF;
+	font-size: 20px;
+	padding: 10px 60px;
+	border-radius: 12px;
+	background-color:#7FFFD4;
+}
+
+.follow .btn:hover{
+	color:#FFFFFF;
+	background-color:#20B2AA;
+}
+
+.followers strong{
+	font-size: 20px;
+}
